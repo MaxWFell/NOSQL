@@ -1,4 +1,4 @@
-# NOSQL
+## No SQL
 
 ## How to run
 
@@ -21,4 +21,4 @@ npm start
 ```
 
 ### video
-<!-- Insert link to video here -->
+<!--  -->

@@ -57,5 +57,15 @@ const userSchema = new Schema({
 });
 
 
+// get total count of friends on retrieval
+userSchema.virtual('friendCount').get(function() {
+    return this.friends.length;
+});
+
+// create the User model using the UserSchema
+const User = mongoose.model('User', userSchema);
+
+
+module.exports = User;
 
 
